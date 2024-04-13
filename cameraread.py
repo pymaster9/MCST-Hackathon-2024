@@ -1,6 +1,6 @@
 import cv2
 
-cam = cv2.VideoCapture(0)
+cam = cv2.VideoCapture(1)
 ret, img = cam.read()
 ret, img = cam.read()
 print(ret)
